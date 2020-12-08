@@ -36,8 +36,8 @@ Learning curves during fine-tuning:
 
 <img src="https://github.com/LeeKeyu/abdominal_ultrasound_classification/blob/master/result/learning_curve.png" width="50%" height="50%">
 
-Comparison of classification accuracy using different feature extractors and classifiers:
+Classification accuracy using different feature extractors and classifiers:
 
-<img src="https://github.com/LeeKeyu/abdominal_ultrasound_classification/blob/master/result/comparison.png" width="60%" height="60%">
+<img src="https://github.com/LeeKeyu/abdominal_ultrasound_classification/blob/master/result/comparison.png" width="50%" height="50%">
 
 
