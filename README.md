@@ -5,7 +5,7 @@ Using deep neural networks with k-NN classification for abdominal organ recognit
 This project uses Keras, numpy, pandas, scipy, scikit-learn and matplotlib packages.
 
 ### Method Overview
-![](https://github.com/LeeKeyu/abdominal_ultrasound_classification/blob/master/result/workflow.jpg)
+![](https://github.com/LeeKeyu/abdominal_ultrasound_classification/blob/master/result/workflow.jpg=200x)
 We use deep neural networks (e.g., ResNet and DenseNet) combined with PCA dimension reduction to extract features of the ultrasound images, and then use the k-Nearest-Neighbor approach with Euclidean distance, City block distance, Canberra distance and Cosine distance for automatic classification of abdominal organs in the ultrasound images.
 
 ### Dataset
