@@ -17,7 +17,7 @@ We use deep neural networks (e.g., ResNet and DenseNet) combined with PCA dimens
 The [dataset](https://github.com/ftsvd/USAnotAI) we use contains ultrasound images of six abdominal organs. 300 images are used as training set (database) and 60 images are used for testing.
 
 ### Code Structure & Use
- - **finetune.py**: fine-tune the deep neural networks which are pre-trained on the ImageNet dataset using our training data
+ - **finetune.py**: fine-tune the deep neural networks (pre-trained on the ImageNet dataset) using our training data
  - **extract_features.py**: extract features using pre-trained or fine-tuned deep neural networks from original images
  - **extract_features_pca.py**: conduct PCA dimension reduction on the extracted features
  - **recognize_organs.py**: use k-NN to recognize the abdominal organ in the image by comparing distances between features of the train and
