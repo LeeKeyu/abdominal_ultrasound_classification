@@ -1,16 +1,20 @@
 # abdominal_ultrasound_classification
+
 Using deep neural networks with k-NN classification for abdominal organ recognition in ultrasound images.
 
 ### Requirements
+
 This project uses Keras, numpy, pandas, scipy, scikit-learn and matplotlib packages.
 
 ### Method Overview
-<img src="https://github.com/LeeKeyu/abdominal_ultrasound_classification/blob/master/result/workflow.jpg" width="70%" height="70%">
+
+<img src="https://github.com/LeeKeyu/abdominal_ultrasound_classification/blob/master/result/workflow.jpg" width="60%" height="60%">
 
 We use deep neural networks (e.g., ResNet and DenseNet) combined with PCA dimension reduction to extract features of the ultrasound images, and then use the k-Nearest-Neighbor approach with Euclidean distance, City block distance, Canberra distance and Cosine distance for automatic classification of abdominal organs in the ultrasound images.
 
 ### Dataset
-The [dataset](https://github.com/ftsvd/USAnotAI) we use contains ultrasound images of six abdominal organs. 300 images are used for training and 60 images for testing.
+
+The [dataset](https://github.com/ftsvd/USAnotAI) we use contains ultrasound images of six abdominal organs. 300 images are used as training set (database) and 60 images are used for testing.
 
 ### Code Structure & Use
  - **finetune.py**: fine-tune the deep neural networks which are pre-trained on the ImageNet dataset using our training data
@@ -20,17 +24,20 @@ The [dataset](https://github.com/ftsvd/USAnotAI) we use contains ultrasound imag
    test images
 
 Simply run the fine-tuning, feature extraction, dimension reduction and classification successively:
+
 ```
 python main.py
 ```
 
+
 ### Results
+
 Learning curves during fine-tuning:
 
 <img src="https://github.com/LeeKeyu/abdominal_ultrasound_classification/blob/master/result/learning_curve.png" width="50%" height="50%">
 
 Comparison of classification accuracy using different feature extractors and classifiers:
 
-<img src="https://github.com/LeeKeyu/abdominal_ultrasound_classification/blob/master/result/comparison.png" width="70%" height="70%">
+<img src="https://github.com/LeeKeyu/abdominal_ultrasound_classification/blob/master/result/comparison.png" width="60%" height="60%">
 
 
