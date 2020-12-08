@@ -40,4 +40,6 @@ Classification accuracy using different feature extractors and classifiers:
 
 <img src="https://github.com/LeeKeyu/abdominal_ultrasound_classification/blob/master/result/comparison.png" width="50%" height="50%">
 
+### Questions
 
+If you have any questions, please feel free to contact "kyli@link.cuhk.edu.hk".
