@@ -1,20 +1,20 @@
 # abdominal_ultrasound_classification
 
-Using deep neural networks with k-NN classification for abdominal organ recognition in ultrasound images.
+Different from pure transfer learning-based methods, this code is committed to combining deep convolutional neural networks with PCA and k-Nearest Neighbor classification for abdominal organ recognition in ultrasound images, to reduce the requirement of large datasets and improve the classification performance with minimal training effort.
 
 ### Requirements
 
-This project uses Keras, numpy, pandas, scipy, scikit-learn and matplotlib packages.
+The packages used in this project include Keras, numpy, pandas, scipy, scikit-learn and matplotlib.
 
 ### Method Overview
 
 <img src="https://github.com/LeeKeyu/abdominal_ultrasound_classification/blob/master/result/workflow.jpg" width="60%" height="60%">
 
-We use deep neural networks (e.g., ResNet and DenseNet) combined with PCA dimension reduction to extract features of the ultrasound images, and implement the k-Nearest-Neighbor approach with Euclidean distance, City block distance, Canberra distance and Cosine distance for automatic classification of abdominal organs in the ultrasound images.
+We use finetuned deep convolutional neural networks (e.g., ResNets, DenseNets) combined with PCA dimension reduction to extract features of the ultrasound images, and implement the k-Nearest-Neighbor approach with Euclidean distance, City block distance, Canberra distance and Cosine distance for automatic classification of abdominal organs in the ultrasound images.
 
 ### Dataset
 
-The [dataset](https://github.com/ftsvd/USAnotAI) we use contains ultrasound images of six abdominal organs. 300 images are used as training set (database) and 60 images are used for testing.
+The [dataset](https://github.com/ftsvd/USAnotAI) we use contains 360 ultrasound images of six abdominal organs. 300 images are used as training set (database) and 60 images are used for testing.
 
 ### Code Structure & Use
  - **finetune.py**: fine-tune the deep neural networks (pre-trained on the ImageNet dataset) using our training data
