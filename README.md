@@ -33,7 +33,7 @@ python main.py
 
 Learning curves during fine-tuning:
 
-<img src="https://github.com/LeeKeyu/abdominal_ultrasound_classification/blob/master/result/learning_curve.jpg" width="50%" height="50%">
+<img src="https://github.com/LeeKeyu/abdominal_ultrasound_classification/blob/master/result/learning_curves.jpg" width="50%" height="50%">
 
 Classification accuracy using different feature extractors and classifiers:
 
