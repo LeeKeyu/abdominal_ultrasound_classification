@@ -1,8 +1,8 @@
-from keras.applications.resnet50 import ResNet50
+from keras.applications.resnet import ResNet50
 from keras.applications.densenet import DenseNet121,DenseNet169,DenseNet201
 from keras.applications.resnet import ResNet101, ResNet152
 from keras.preprocessing import image
-from keras.applications.resnet50 import preprocess_input
+from keras.applications.resnet import preprocess_input
 import numpy as np
 import os
 

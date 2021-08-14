@@ -1,12 +1,12 @@
 from keras.models import Model
 from keras.layers import Dense
 from keras.utils.np_utils import *
-from keras.applications.resnet50 import ResNet50
+from keras.applications.resnet import ResNet50
 from keras.applications.densenet import DenseNet121,DenseNet169,DenseNet201
 from keras.applications.resnet import ResNet101, ResNet152
 from keras.preprocessing.image import ImageDataGenerator, load_img, img_to_array
-from keras.applications.resnet50 import preprocess_input
-from keras.optimizers import SGD
+from keras.applications.resnet import preprocess_input
+from tensorflow.keras.optimizers import SGD
 import numpy as np
 import os
 from keras.callbacks import TensorBoard, ReduceLROnPlateau

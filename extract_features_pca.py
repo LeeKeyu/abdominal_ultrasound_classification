@@ -37,7 +37,8 @@ def extract_features_pca(nn_model):
    test_list -= train_mean
 
    # do pca
-   pca = PCA(n_components=None)
+   # pca = PCA(n_components=None)
+   pca = PCA(n_components=0.99)
    train_pca = pca.fit_transform(train_list)
    test_pca = pca.transform(test_list)
    print(train_pca.shape, test_pca.shape)
