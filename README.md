@@ -39,6 +39,22 @@ Classification accuracy using different feature extractors and classifiers:
 
 <img src="https://github.com/LeeKeyu/abdominal_ultrasound_classification/blob/master/result/comparison.jpg" width="50%" height="50%">
 
+
+### Citation
+
+If our code or method is useful to your research, please consider citing our paper (accepted at IEEE ROBIO 2021):
+
+```
+@misc{li2021automatic,
+      title={Automatic Recognition of Abdominal Organs in Ultrasound Images based on Deep Neural Networks and K-Nearest-Neighbor Classification}, 
+      author={Keyu Li and Yangxin Xu and Max Q. -H. Meng},
+      year={2021},
+      eprint={2110.04563},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
+
 ### Questions
 
 If you have any questions, please feel free to contact "kyli@link.cuhk.edu.hk".
